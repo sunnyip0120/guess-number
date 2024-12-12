@@ -10,7 +10,7 @@ def guess_the_number():
     global lowest, highest, attempts
     while True:
         try:
-            guess = int(input(f"Guess a number between {lowest} and {highest}: "))
+            guess = int(input(f"Guess a number between {lowest} to {highest}: "))
             attempts += 1 
 
             if guess < lowest or guess > highest:

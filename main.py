@@ -11,7 +11,7 @@ def guess_the_number():
     while True:
         try:
             guess = int(input(f"Guess a number between {lowest} and {highest}: "))
-            attempts += 1  # Correctly increment attempts
+            attempts += 1 
 
             if guess < lowest or guess > highest:
                 print(f"Please guess a number within the range {lowest} to {highest}.")
